@@ -10,7 +10,7 @@ const Navbar = () => {
         <a className="hover:text-white transition-all duration-100 shadow-md hover:shadow-lg hover:scale-105" href="">Auction</a>
         <a className="hover:text-white transition-all duration-100 shadow-md hover:shadow-lg hover:scale-105" href="">About Us</a>
         <a className="hover:text-white transition-all duration-100 shadow-md hover:shadow-lg hover:scale-105" href="">Contact</a>
-        <button className="btn-gold  px-4 py-2 rounded text-black cursor-pointer hover:text-white transition-all duration-100 shadow-md hover:shadow-lg hover:scale-105">Login/Register</button>
+        <button className="btn-gold text-xl px-4 py-2 rounded text-black cursor-pointer hover:text-white transition-all duration-100 shadow-md hover:shadow-lg hover:scale-105">Login/Register</button>
         </div>
       </nav>
     </div>
