@@ -1,0 +1,13 @@
+@import "tailwindcss";
+.btn-gold {
+  background-color: #B8860A;
+
+}
+
+.text-gold {
+  color: #B8860A;
+}
+
+.border-gold {
+  border-color: #B8860A;
+}
