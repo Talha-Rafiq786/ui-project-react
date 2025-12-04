@@ -3,7 +3,7 @@ import { Facebook, Twitter } from "lucide-react";
 
 const Futter = () => {
   return (
-    <footer className="bg-[#0B1F4D] text-white py-10 mt-10">
+    <footer className="bg-[#0B1F4D] text-white py-10">
       <div className="max-w-7xl mx-auto px-6">
         
         {/* Top Section */}

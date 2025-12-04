@@ -1,5 +1,7 @@
 import React from "react";
 import Logo from "./Logo";
+import { Link } from "react-router-dom";
+
 
 const Navbar = () => {
   return (
@@ -10,7 +12,7 @@ const Navbar = () => {
         <a className="hover:text-white transition-all duration-100 shadow-md hover:shadow-lg hover:scale-105" href="">Auction</a>
         <a className="hover:text-white transition-all duration-100 shadow-md hover:shadow-lg hover:scale-105" href="">About Us</a>
         <a className="hover:text-white transition-all duration-100 shadow-md hover:shadow-lg hover:scale-105" href="">Contact</a>
-        <button className="btn-gold text-xl px-4 py-2 rounded text-black cursor-pointer hover:text-white transition-all duration-100 shadow-md hover:shadow-lg hover:scale-105">Login/Register</button>
+        <Link to='/singup' className="btn-gold text-xl px-4 py-2 rounded text-black cursor-pointer hover:text-white transition-all duration-100 shadow-md hover:shadow-lg hover:scale-105">Login/Register</Link>
         </div>
       </nav>
     </div>
