@@ -2,6 +2,7 @@ import React from 'react'
 import Logo from '../Navbar/Logo'
 import RightContent from './RightContent'
 import LeftContent from './LeftContent'
+import { Link } from "react-router-dom";
 
 const SingupNav = () => {
   return (
@@ -9,7 +10,7 @@ const SingupNav = () => {
       <div className="relative flex items-center justify-between">
         
         
-        <Logo />
+        <Link to='/'><Logo /></Link> 
 
         
         <div className="flex items-center gap-2">

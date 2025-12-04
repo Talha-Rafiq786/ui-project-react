@@ -1,6 +1,7 @@
 import React from 'react'
 import BgImage from './BgImage'
 
+
 const Hero = () => {
     return (
         <div className='relative'>
